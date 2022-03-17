@@ -17,7 +17,7 @@ class Adnkronos(BasicNewsRecipe):
     language = 'it'
     timefmt = '[%a, %d %b, %Y]'
 
-    oldest_article = 7
+    oldest_article = 1
     max_articles_per_feed = 80
     use_embedded_content = False
     recursion = 10
